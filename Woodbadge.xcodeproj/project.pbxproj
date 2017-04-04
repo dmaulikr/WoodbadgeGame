@@ -12,6 +12,10 @@
 		429501361E93C81700D3631A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 429501341E93C81700D3631A /* Main.storyboard */; };
 		429501381E93C81700D3631A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 429501371E93C81700D3631A /* Assets.xcassets */; };
 		4295013B1E93C81800D3631A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 429501391E93C81700D3631A /* LaunchScreen.storyboard */; };
+		429501431E93C8D500D3631A /* GameBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429501421E93C8D500D3631A /* GameBoardView.swift */; };
+		4295014A1E93D15C00D3631A /* QuestionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429501491E93D15C00D3631A /* QuestionItem.swift */; };
+		4295014C1E93D61800D3631A /* GameSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4295014B1E93D61800D3631A /* GameSquare.swift */; };
+		4295014E1E93E92900D3631A /* GameQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4295014D1E93E92900D3631A /* GameQuestion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		429501371E93C81700D3631A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4295013A1E93C81700D3631A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4295013C1E93C81800D3631A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		429501421E93C8D500D3631A /* GameBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBoardView.swift; sourceTree = "<group>"; };
+		429501491E93D15C00D3631A /* QuestionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionItem.swift; sourceTree = "<group>"; };
+		4295014B1E93D61800D3631A /* GameSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSquare.swift; sourceTree = "<group>"; };
+		4295014D1E93E92900D3631A /* GameQuestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameQuestion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				429501371E93C81700D3631A /* Assets.xcassets */,
 				429501391E93C81700D3631A /* LaunchScreen.storyboard */,
 				4295013C1E93C81800D3631A /* Info.plist */,
+				429501491E93D15C00D3631A /* QuestionItem.swift */,
+				429501421E93C8D500D3631A /* GameBoardView.swift */,
+				4295014D1E93E92900D3631A /* GameQuestion.swift */,
+				4295014B1E93D61800D3631A /* GameSquare.swift */,
 			);
 			path = Woodbadge;
 			sourceTree = "<group>";
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4295014A1E93D15C00D3631A /* QuestionItem.swift in Sources */,
+				4295014E1E93E92900D3631A /* GameQuestion.swift in Sources */,
+				4295014C1E93D61800D3631A /* GameSquare.swift in Sources */,
 				429501331E93C81700D3631A /* ViewController.swift in Sources */,
 				429501311E93C81700D3631A /* AppDelegate.swift in Sources */,
+				429501431E93C8D500D3631A /* GameBoardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

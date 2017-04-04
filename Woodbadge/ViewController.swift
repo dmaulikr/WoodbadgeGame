@@ -8,11 +8,18 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
 
+    @IBOutlet weak var gbView: GameBoardView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        gbView.drawBoard()
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
