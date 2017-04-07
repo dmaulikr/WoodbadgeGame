@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		420F76391E98213800FCCF06 /* Critters.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420F76381E98213800FCCF06 /* Critters.xcassets */; };
+		420F763B1E98234500FCCF06 /* GameScoreTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420F763A1E98234500FCCF06 /* GameScoreTile.swift */; };
+		420F763D1E9823EB00FCCF06 /* WoodbadgeCritter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420F763C1E9823EB00FCCF06 /* WoodbadgeCritter.swift */; };
 		429501311E93C81700D3631A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429501301E93C81700D3631A /* AppDelegate.swift */; };
 		429501331E93C81700D3631A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429501321E93C81700D3631A /* ViewController.swift */; };
 		429501361E93C81700D3631A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 429501341E93C81700D3631A /* Main.storyboard */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		420F76381E98213800FCCF06 /* Critters.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Critters.xcassets; sourceTree = "<group>"; };
+		420F763A1E98234500FCCF06 /* GameScoreTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScoreTile.swift; sourceTree = "<group>"; };
+		420F763C1E9823EB00FCCF06 /* WoodbadgeCritter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WoodbadgeCritter.swift; sourceTree = "<group>"; };
 		4295012D1E93C81700D3631A /* Woodbadge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Woodbadge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		429501301E93C81700D3631A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		429501321E93C81700D3631A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +78,9 @@
 				429501421E93C8D500D3631A /* GameBoardView.swift */,
 				4295014D1E93E92900D3631A /* GameQuestion.swift */,
 				4295014B1E93D61800D3631A /* GameSquare.swift */,
+				420F76381E98213800FCCF06 /* Critters.xcassets */,
+				420F763A1E98234500FCCF06 /* GameScoreTile.swift */,
+				420F763C1E9823EB00FCCF06 /* WoodbadgeCritter.swift */,
 			);
 			path = Woodbadge;
 			sourceTree = "<group>";
@@ -137,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4295013B1E93C81800D3631A /* LaunchScreen.storyboard in Resources */,
+				420F76391E98213800FCCF06 /* Critters.xcassets in Resources */,
 				429501381E93C81700D3631A /* Assets.xcassets in Resources */,
 				429501361E93C81700D3631A /* Main.storyboard in Resources */,
 			);
@@ -151,6 +161,8 @@
 			files = (
 				4295014A1E93D15C00D3631A /* QuestionItem.swift in Sources */,
 				4295014E1E93E92900D3631A /* GameQuestion.swift in Sources */,
+				420F763D1E9823EB00FCCF06 /* WoodbadgeCritter.swift in Sources */,
+				420F763B1E98234500FCCF06 /* GameScoreTile.swift in Sources */,
 				4295014C1E93D61800D3631A /* GameSquare.swift in Sources */,
 				429501331E93C81700D3631A /* ViewController.swift in Sources */,
 				429501311E93C81700D3631A /* AppDelegate.swift in Sources */,
@@ -320,6 +332,7 @@
 				429501411E93C81800D3631A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
