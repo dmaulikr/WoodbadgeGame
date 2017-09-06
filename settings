@@ -1,7 +1,4 @@
-GLOBAL=DeviceName~Cameo Collar
-PARTICLE=C_Texture~Chain~ParticleMode~Classic~Gravity~-1.~Size~<0.04,0.04,1>~R_Texture~Silk
 RLVSYS=on~1
 LEASH=leashlength~1
 RELAY=trustav~3aecc941-d92f-4b46-9c46-3c53b71752e4,e5b1a59d-29b5-4acd-9d26-04e0a9eead0a,0c03216e-9ec7-4f2f-bf7a-206026932015,e3af8899-afbc-49fc-a837-9f876ec81525~mode~1065
 AUTH=owner~c58a4107-986f-4adb-9ad1-b22ddf46dfe0,0e094a56-b2fa-4afe-bf8a-1843a3fd2543,518298f0-5dbe-48c4-afdd-1b51272ca254
-OFFSET=hovers~kneel,-0.020000~standhover~-0.02000
