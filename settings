@@ -1,4 +1,4 @@
-GLOBAL=DeviceName~Cabochon Hertz
+GLOBAL=DeviceName~Cameo Collar
 PARTICLE=C_Texture~Chain~ParticleMode~Classic~Gravity~-1.~Size~<0.04,0.04,1>~R_Texture~Silk
 RLVSYS=on~1
 LEASH=leashlength~1
